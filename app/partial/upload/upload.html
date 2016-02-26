@@ -1,0 +1,20 @@
+<div class="col-md-12" ng-controller="UploadCtrl">
+
+<br/>
+	<label>Width</label>
+	<input type="number" class="form-control" ng-model="imageSize.width">
+	<br/>
+	<label>Height</label>
+	<input type="number" class="form-control" ng-model="imageSize.height">
+	<br/>
+	<div class="btn btn-primary" ngf-select="upload($file)">Upload on file select</div>
+	<br/><br/>
+
+	<div class="progress">
+	  <div class="progress-bar progress-bar-striped active" 
+	  ng-class="{'progress-bar-success':uploaded}" role="progressbar" aria-valuenow="{{progressPercentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{progressPercentage}}%">
+	    <span class="sr-only">{{progressPercentage}}%</span>
+	  </div>
+	</div>
+
+</div>
