@@ -9,14 +9,28 @@
 
 #### Server
 
-```$ cd server```
-```$ npm install```
+```
+$ cd server
+```
+
+```
+$ npm install
+```
 
 #### App
 
-```$ cd app```
-```$ npm install```
-```$ bower install```
+```
+$ cd app
+```
+
+```
+$ npm install
+```
+
+```
+$ bower install
+```
+
 
 ## Running
 
@@ -24,10 +38,14 @@
 
 in your server folder run
 
-```$ node run```
+```
+$ node run
+```
 
 #### App
 
 in your app folder run
 
-```$ grunt serve```
+```
+$ grunt serve
+```
