@@ -5,6 +5,17 @@
 * NodeJS
 * Graphics Magick or Image Magick
 
+On OSX install with Brew (http://www.brew.sh)
+
+```
+$ brew install imagemagick
+```
+
+On Windows download here
+
+http://www.imagemagick.org/script/binary-releases.php
+
+
 ## Installation
 
 #### Server
